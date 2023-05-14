@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    background-color: rgb(239, 233, 233);
+    margin: 0;
+}
+.piros {
+    margin:0;
+    background-color: #c6151d;
+    height: 30px;
+}
+.h5 {
+    color: aliceblue;
+    margin-top: 0;
+    margin-left:30px;
+
+}
+#Foot {
+    position: fixed;
+    left: 0 ;right: 0;
+     bottom: 0;
+     text-align: center;
+}
+.nav a {
+   font-size: 20px;
+   width: 100%;
+    color: #e4e4e4;
+   position:relative;
+    margin-right: 30px;
+
+
+}
+.header {
+    background: #444444;
+    top: 0;
+    left: 0;
+    padding: 25px 12.5%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+  
+    
+}

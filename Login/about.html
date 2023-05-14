@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+   .out {            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 10em;
+           
+            background-color: aqua;
+            padding-left: 1em;
+            padding-right: 1em;
+            margin: 1.5em
+        }
+        .in {
+            background: url("https://www.tomleemusic.ca/media/catalog/product/cache/7b59eeedc8a9391b10c489498e31e772/u/l/ultraluxe2.jpg"), no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 2px;
+            height: 80px;
+            background-color: bisque;
+            width: 80px;
+            border-radius: 50%;
+        }
+    .out1 {display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10em;
+           
+            /* background: linear-gradient(79.68deg, #203667 0%, #59B9C3 100%);  */
+            background: linear-gradient(94.14deg, #E5064B -15.55%, #8F1C6B 118.75%);
+            padding-left: 1em;
+            padding-right: 1em;
+            margin: 1.5em}
+
+   #b {height: 80px;
+        width: 250px;    
+        background-color: #11abf0;
+        border: none;
+        border-radius: 3px;
+        font-size: 28px;
+        font-family: "Poppins";
+    }     
+    
+.mobile-top-bar {
+    display: flex;
+height: 30px;
+padding-right: 5px;
+padding-left: 5px;
+background: rgba(218, 10, 34, 1);
+  background-attachment: scroll;
+justify-content: space-between;
+}
+
+@media only screen and (max-width:400px) { body {background-color: aqua;}}
+    </style>
+</head>
+<body>
+    <div class="wrapped">
+    <div class="out">
+
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+        
+    </div>
+
+    <div class="out">
+
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+    </div>
+    <div class="out">
+
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+    </div>
+    <div class="out1"><button id="b" onclick="alert('hello')">Hello</button></div>
+</div>
+<div class="mobile-top-bar">
+    <div class="mobile-top-menu-wrapper">
+        
+
+    </div>
+        <div class="language-currency top-menu">
+      <div class="top-menu top-menu-13">
+    <ul class="j-menu">
+                  <li class="menu-item top-menu-item top-menu-item-1">
+                  <a href="javascript:open_login_popup()"><span class="links-text">Belépés</span></a>
+            </li>
+
+                  <li class="menu-item top-menu-item top-menu-item-2">
+                  <a href="javascript:open_register_popup()"><span class="links-text">Regisztráció</span></a>
+            </li>
+
+          </ul>
+  </div><div class="mobile-currency-wrapper">
+        
+      </div>
+      <div class="mobile-language-wrapper">
+        
+      <div id="language" class="language">
+    <form action="https://www.hangszerdiszkont.hu/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+      <div class="dropdown drop-menu">
+        <button type="button" class="dropdown-toggle" data-toggle="" aria-expanded="false">
+          <span class="language-flag-title">
+            <span class="symbol"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFCSURBVHjaYjzLgAL+gMl/MMYfGBtCAhFAAA7E7QQAEAZi/XANJ+1WDuJC96iHEELIyt3d8dihpKIsFmlygPlOG7jnPAHEAjbo/+8nT/8Dlf79C5IDMoAkUCmQ/AVk/Pr/6xeQyyorC7QHIIBYwGb/R1YNlAaZClYKVg3U9gui/xcDA0AAMf79+5eRkRGk7f9/BjDEBYDKPn36BBBAECdBVcEZWAEDI+O/f/8AAogFoQi/+UAb/gMD5R9AADEy+DNkpWTdf3f/z98/v//++vXn96+/v37//Q1EIAaMC5RVFlI6W3AOIIBYGH4AA/APSMUfqKJff35BVYNIoOCvPyANf//8/wt0DkAAsTD8YgAGsiSPJDBQ/gDN+QfSBmb/AYYLUAAYHX//gAPxL0gDQAAxMlgzAPWA0A8MBhD9Z0ADAAEGACLkbQYCfrxnAAAAAElFTkSuQmCC" alt="Magyar" title="Magyar" width="16" height="11"></span>
+            <span class="language-title">Magyar</span>
+          </span>
+        </button>
+        <div class="dropdown-menu j-dropdown">
+          <ul class="j-menu">
+                          <li>
+                <a class="language-select" data-name="hu-hu">
+                  <span class="language-flag"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFCSURBVHjaYjzLgAL+gMl/MMYfGBtCAhFAAA7E7QQAEAZi/XANJ+1WDuJC96iHEELIyt3d8dihpKIsFmlygPlOG7jnPAHEAjbo/+8nT/8Dlf79C5IDMoAkUCmQ/AVk/Pr/6xeQyyorC7QHIIBYwGb/R1YNlAaZClYKVg3U9gui/xcDA0AAMf79+5eRkRGk7f9/BjDEBYDKPn36BBBAECdBVcEZWAEDI+O/f/8AAogFoQi/+UAb/gMD5R9AADEy+DNkpWTdf3f/z98/v//++vXn96+/v37//Q1EIAaMC5RVFlI6W3AOIIBYGH4AA/APSMUfqKJff35BVYNIoOCvPyANf//8/wt0DkAAsTD8YgAGsiSPJDBQ/gDN+QfSBmb/AYYLUAAYHX//gAPxL0gDQAAxMlgzAPWA0A8MBhD9Z0ADAAEGACLkbQYCfrxnAAAAAElFTkSuQmCC" alt="Magyar" title="Magyar" width="16" height="11"></span>
+                  <span class="language-title-dropdown">Magyar</span>
+                </a>
+              </li>
+                          <li>
+                <a class="language-select" data-name="en-gb">
+                  <span class="language-flag"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJNSURBVHjaADEAzv8Bdn+ySSLrALyz/0lXtNYL/v//LScKIayCARET3EFo0tbz/wD+TSv5/Z6NCFtlhsERAgAxAM7/AHaAsuTp/v729f7Uz/75++Dm/vT2/v7Mxf7XzvP1/t7j/v72+P6wpv7y8MfU/j9LpQIAMQDO/wIA/wL/AADL3AoBGx8BtLIfCvf09wEB09AB2tzy9gEhCvMBc3EBOUOWugz39gAA9P4CiImBkQEEGBlOPBJkcHNl2LNdnPkLw927DD9eSTF/YqgtY2hrmXJY+MNHhl+/QAoBAojFk+mYNJOJDNt7BqBFT/4zaGsxdDczXL7DcOEaw5GzDDl5DPdu5oh8ZeD/9V9Yko2hByAAADEAzv8E/8fAAEhJANHWAP4AAN7hAOrlAOzrAPDzAPj2AOjnAL5ZAPv4APj6APz8AGZY7gAAAoiFUUmVQV6FgUuQAWiFpSWDgABDYjzDZ6CGHwycbAxzZjN8+8bw4zfDz18M2sqC+w8CBBDLZsEAxX/ij35KAP1io/yBobmJYcsOBnNDBn52hrV7GSIDGWZNz14u8eX7Dw9mtpkM7gABxAQMeJDrgarl3jA01jNU1r/7ycbw7QfD9z/H3gkzTJ3HEBUz1eXK/19f/v79w8DwCyCAmEBO/89go/bp//Hd/1s7Dz/hY2H9/z8h8H+0n4Tg/5UPxf+t3/zr+J6FGT8Y/v5mYPgNEEAsDP//3t867drS2UyJhe2x6xje/7UOFbPYvQdoZ9854/8vrk5n+JrCdeXNts1SIHdYAgQYAHK0/st9mgoPAAAAAElFTkSuQmCC" alt="English" title="English" width="16" height="11"></span>
+                  <span class="language-title-dropdown">English</span>
+                </a>
+              </li>
+                      </ul>
+        </div>
+      </div>
+      <input type="hidden" name="code" value="">
+      <input type="hidden" name="redirect" value="product/category&amp;fm=207&amp;path=256_280">
+    </form>
+  </div></div>
+    </div>
+      </div>
+
+
+
+
+</body>
+</html>

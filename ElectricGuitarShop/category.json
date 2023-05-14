@@ -1,0 +1,18 @@
+[
+  {
+    "CategoryID": 3,
+    "CategoryName": "Effekt"
+  },
+  {
+    "CategoryID": 2,
+    "CategoryName": "Erősítő"
+  },
+  {
+    "CategoryID": 1,
+    "CategoryName": "Gitár"
+  },
+  {
+    "CategoryID": 4,
+    "CategoryName": "Kiegészítő"
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Űrlap készítése-->
+    <form action="/first.py" target="_blank"> <!--küldi a gomb megnyomásra erre ahivatkozásra, a target= új oldalra dob-->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus><br> <!--betöltéskor a kurzor már ott van a formban-->
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"  ><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+    <br>
+    <fieldset> <!-- csoportosítja az űrlapot-->
+        <form method="get">  <!-- az url-ben megjelennek az értékek!-->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Thomas"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Horvath"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </fieldset>
+    <br>
+    <hr>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form>   
+    <hr>
+    <input type="button" onclick="alert('Szia!')" value="Kattints ide!"> <!--Felubró ablak -->
+    <hr>
+    <form>
+        <label for="favcolor">A kedvenc színem:</label>
+        <input type="color" id="favcolor" name="favcolor">
+      </form> 
+</body>
+</html>
